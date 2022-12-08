@@ -288,10 +288,18 @@ hr{
 	line-height: inherit;
 	vertical-align: top;
 }
+
 #info-product .button{
-	font-weight: 600;
-	text-transform: inherit;
+	font-weight: 700;
+	text-transform: uppercase;
 }
+
+#info-product .button-fill{
+	border: 2px solid;
+	border-color: #fff;
+	border-radius: 25px;
+}
+
 .info-checkout{
 	background-color: #f4f6fb;
 	padding-top: 30px;
@@ -311,3 +319,41 @@ hr{
 	margin-top: 60px;
 }
 
+.img-half{
+	max-width: 50%;
+}
+
+.profile img{
+	border-radius: 100%;
+}
+
+.profile{
+	margin-bottom: 40px;
+}
+
+.faq a{
+	color: #fff;
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+.faq .block{
+	padding-bottom: 20px;
+}
+
+.faq h1{
+	color: var(--color-rojo) !important;
+	margin-bottom: 10px;
+}
+
+.faq .button{
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none !important;
+}
+
+.faq .button-fill{
+	border: 2px solid;
+	border-color: #fff;
+	border-radius: 25px;
+}

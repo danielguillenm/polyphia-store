@@ -19,9 +19,9 @@ var app = new Framework7({
     	name: 'home',
   		},
 		{
-		path: '/brands/',
-    	url: 'brands.html',
-    	name: 'brands',
+		path: '/profile/',
+    	url: 'profile.html',
+    	name: 'profile',
   		},
 		{
 		path: '/products/',
@@ -32,6 +32,11 @@ var app = new Framework7({
 		path: '/info-product/',
     	url: 'info-product.html',
     	name: 'info-product',
+  		},
+		{
+		path: '/cart/',
+    	url: 'cart.html',
+    	name: 'cart',
   		},
 		{
 		path: '/cart/',
